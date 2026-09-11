@@ -1,0 +1,34 @@
+name: flutter_application_1
+description: Chadgaya Shop - A modern e-commerce application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  get: ^4.6.6
+
+  # UI & Design
+  google_fonts: ^6.1.0
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+
+  # Utilities
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/products/
